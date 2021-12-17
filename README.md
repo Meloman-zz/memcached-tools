@@ -1,9 +1,6 @@
 # memcached-tools
 Class based on memcached with more tools to manipulates keys and data in PHP projects
 
-
-function del($mask, $time);
-
 [Memcached Tools](https://github.com/Meloman-zz/memcached-tools) - to manipulates Memcached data in PHP projects
 
 ================================
