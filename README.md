@@ -42,6 +42,12 @@ Array
     [2] => myapp.moves.W.2021-12-01
     [3] => myapp.moves.W.2021-11-30
 )
+
+other cases with wildcard : 
+
+$mem->del('*customers*');
+$mem->del('*2021-12-01');
+
 ```
 
 ### getNestedKeys(string $delimiter = '.', array $nested = array()); (get nested array of keys)
