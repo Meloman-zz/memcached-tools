@@ -15,7 +15,7 @@ function to delete many Memcached keys at once based on mask with wildcard.
 
 ```php
   $mem = new MemcachedTools('my_context');
-  $mem->del('some.vars.*);
+  $mem->del('some.keys.*');
 ```
 
 ### getNestedKeys(string $delimiter = '.', array $nested = array()); (get nested array of keys)
